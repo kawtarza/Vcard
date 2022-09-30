@@ -44,8 +44,7 @@ body{
     padding: -50px;
     position: relative;
     left: 450px;
-    -webkit-animation: rotate-center 0.6s ease-in-out both;
-	animation: rotate-center 0.6s ease-in-out both;
+    
 }
 .txt> h2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
