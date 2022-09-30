@@ -9,8 +9,11 @@ body{
 }
 .logo{
   width : 150px;
-height : 150px;
+  height : 150px;
+  top : 25px;
 }
+
+
 .flex{
     display:flex;
     justify-content: space-between;
@@ -18,7 +21,7 @@ height : 150px;
 }
 #menu{
     position: relative;
-    top: -28px;
+    top: 25px;
 
 }
 .middle{
@@ -29,13 +32,11 @@ height : 150px;
 }
 .picture{
     width: 334px;
-    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
     box-shadow: 5px 5px 15px 5px #000000;
     position: relative;
     top: -50px;
     left: 400px;
-    -webkit-animation: slide-tl 0.9s linear 2s alternate-reverse both;
-	animation: slide-tl 0.9s linear 2s alternate-reverse both;
+    
 }
 .txt{
     display: flex;
@@ -52,6 +53,7 @@ height : 150px;
     text-transform: uppercase;
     position: relative;
     top: 42px;
+    
 }
 .txt> h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -59,6 +61,7 @@ height : 150px;
     text-transform: capitalize;
     position: relative;
     top: 42px;
+    color: white;
 
 }
 .txt> p{
@@ -109,49 +112,3 @@ height : 150px;
     color: black;
 }
 
-/* card rotation */
-
-@-webkit-keyframes slide-tl {
-    0% {
-      -webkit-transform: translateY(0) translateX(0);
-              transform: translateY(0) translateX(0);
-    }
-    100% {
-      -webkit-transform: translateY(-100px) translateX(-100px);
-              transform: translateY(-100px) translateX(-100px);
-    }
-  }
-  @keyframes slide-tl {
-    0% {
-      -webkit-transform: translateY(0) translateX(0);
-              transform: translateY(0) translateX(0);
-    }
-    100% {
-      -webkit-transform: translateY(-100px) translateX(-100px);
-              transform: translateY(-100px) translateX(-100px);
-    }
-  }
-  /* texte rotation */
-
-  @-webkit-keyframes rotate-center {
-    0% {
-      -webkit-transform: rotate(0);
-              transform: rotate(0);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg);
-    }
-  }
-  @keyframes rotate-center {
-    0% {
-      -webkit-transform: rotate(0);
-              transform: rotate(0);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg);
-    }
-  }
-  
-  
